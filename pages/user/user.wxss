@@ -1,0 +1,72 @@
+.apt-user {
+  background-color: #f9f9f9;
+}
+.apt-user .apt-user-profile {
+  height: 400rpx;
+  position: relative;
+}
+.apt-user .apt-user-profile .apt-user-bg {
+  height: 400rpx;
+  filter: blur(50rpx);
+}
+.apt-user .apt-user-profile .imageWrapper {
+  height: 150rpx;
+  width: 150rpx;
+  position: absolute;
+  top: 100rpx;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.apt-user .apt-user-profile .imageWrapper image {
+  border-radius: 50%;
+}
+.apt-user .apt-user-profile .nickName {
+  position: absolute;
+  top: 0rpx;
+  color: white;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.apt-user .apt-user-profile button {
+  position: absolute;
+  top: 150rpx;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 1rpx solid red;
+  color: var(--themeColor);
+}
+.apt-user .apt-user-orderFunc {
+  height: 150rpx;
+  display: flex;
+  align-items: center;
+}
+.apt-user .apt-user-orderFunc .apt-user-orderFunc-item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.apt-user .apt-user-orderFunc .apt-user-orderFunc-item .iconfont {
+  font-size: 50rpx;
+}
+.apt-user .apt-user-systemFunc .apt-user-systemFunc-item {
+  height: 100rpx;
+  border-bottom: 1rpx solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10rpx;
+}
+.apt-user .apt-user-systemFunc .apt-user-systemFunc-item .left {
+  display: flex;
+  align-items: center;
+}
+.apt-user .apt-user-systemFunc .apt-user-systemFunc-item .left .iconfont {
+  font-size: 50rpx;
+}
+.apt-user .apt-user-systemFunc .apt-user-systemFunc-item .left .text {
+  margin-left: 20rpx;
+}
+.apt-user .apt-user-systemFunc .apt-user-systemFunc-item .right {
+  color: #e0d4cd;
+}
